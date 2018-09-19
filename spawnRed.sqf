@@ -1,7 +1,7 @@
 spawns = spawns + 1;
 
 _m = selectRandom ["m0", "m1", "m2"];
-_pos = (getMarkerPos _m) getpos [floor random 250, floor random 250];
+_pos = (getMarkerPos _m) getpos [floor random 100, floor random 100];
 
 hint format ["Spawn at %1.", _pos];
 
