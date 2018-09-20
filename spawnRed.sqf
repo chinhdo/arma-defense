@@ -21,8 +21,8 @@ _wp =_grp addWaypoint [getMarkerPos "mDest", 0];
 _wp setWaypointType "MOVE";
 */
 
-// Create marker
-
+// Create debug marker
+/*
 _markerName = Format ["m_%1", spawns];
 _marker1 = createMarker[_markerName, _pos];
 _markerName setMarkerShape "ICON";
@@ -30,3 +30,4 @@ _markerName setMarkerType "hd_dot";
 _markerName setMarkerColor "ColorRed";
 _markerName setMarkerText _markerName;
 _markerName setMarkerAlpha 1;
+*/
