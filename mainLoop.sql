@@ -2,7 +2,7 @@ while {true} do {
 
     _redCount = {side _x == opfor} count allUnits;    
 
-    if (_redCount < 100) then {
+    if (_redCount < 0) then {
         [] execVM 'spawnRed.sqf';
         sleep 2;
     };
@@ -10,7 +10,7 @@ while {true} do {
 
     _blueCount = {side _x == blufor} count allUnits;
 
-    if ((_blueCount<40)) then {
+    if ((_blueCount < 0)) then {
         [] execVM 'spawnBlueHC.sqf';
         sleep 2;
     };
