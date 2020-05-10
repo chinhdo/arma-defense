@@ -1,0 +1,1 @@
+Actual game files are in C:\Users\cdo\Documents\Arma 3\missions\Test.Altis

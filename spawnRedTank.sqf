@@ -6,7 +6,7 @@ _pos = (getMarkerPos _m) getpos [floor random 500, floor random 359];
 hint format ["Spawn at %1.", _pos];
 
 // Tank
-_pos = (getMarkerPos _m) getpos [floor random 500, floor random 359];
+_pos = (getMarkerPos _m) getpos [floor random 25, floor random 25];
 _soldiers = ["O_APC_Tracked_02_cannon_F"];
 _grp = [_pos, east, _soldiers] call BIS_fnc_spawnGroup;
 _wp =_grp addWaypoint [getMarkerPos "mDest", 0];

@@ -8,6 +8,7 @@ if (isServer) then
     player addaction ["Spawn Blue Medic", "spawnBlueMedic.sqf"];
     player addaction ["Spawn Blue HC", "spawnBlueHC.sqf"];
     player addaction ["Automate Medic", "nextMedic.sqf"];
+    player addaction ["Scratch", "scratch.sqf"];
 
     ammo1 addaction ["Open Virtual Arsenal", "arsenalbox.sqf"];
     setViewDistance 4000;
