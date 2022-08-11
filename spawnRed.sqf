@@ -18,7 +18,7 @@ _playerPos = getPos player;
 _angle = 45;
 
 for "_i" from 1 to 10 do {
-	_pos = _playerPos getpos [1000, _angle + (_i * 10)]; // spread out
+	_pos = _playerPos getpos [750, _angle + (_i * 10)]; // spread out
 	hint format ["Spawn at %1.", _pos];
 
 	_soldiers = ["O_Soldier_SL_F","O_Soldier_AR_F","O_Soldier_GL_F","O_Soldier_F","O_Soldier_F","O_Soldier_F","O_Soldier_F","O_Soldier_LAT_F","O_medic_F", "O_soldier_M_F"];
